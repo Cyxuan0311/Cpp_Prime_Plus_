@@ -1,0 +1,43 @@
+C++中函数使用const
+在C++中，使用const关键字可以确保函数的参数不会被修改，或者保证函数不会修改任何成员变量。这样可以提高代码的可读性和可维护性。
+
+以下是几种使用const的方式：
+
+修饰参数，保证参数在函数中不被修改：
+
+void printValue(const int value) {
+    // value++; // 这会导致编译错误，因为value是const
+    cout << value << endl;
+}
+修饰返回值，保证返回值不会被修改：
+
+const int getValue() {
+    // 这个函数返回的是一个const int，意味着返回值不能被修改
+    return 10;
+}
+修饰类成员函数，保证成员变量不会在该函数中被修改：
+
+class MyClass {
+    int value;
+ 
+public:
+    MyClass(int v) : value(v) {}
+ 
+    void printValue() const {
+        // value++; // 这会导致编译错误，因为printValue是const
+        cout << value << endl;
+    }
+};
+修饰this指针，表示成员函数不会修改对象状态：
+
+class MyClass {
+    int value;
+ 
+public:
+    MyClass(int v) : value(v) {}
+ 
+    void printValue() const {
+        cout << value << endl;
+    }
+};
+使用const可以帮助你在编译时期发现错误，而不是在运行时期。这样可以提高代码的可靠性和安全性。
