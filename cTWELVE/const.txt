@@ -1,0 +1,41 @@
+在C++中，const关键字在函数中的应用主要体现在以下几个方面‌：
+
+‌修饰函数参数‌：在函数声明或定义时，使用const关键字可以防止函数修改传入的参数的值。这有两个好处：首先，它能确保函数不会无意间修改参数；其次，它允许你将const类型的实参（包括常量和表达式）传递给函数‌1。例如：
+
+void print(const int number) {
+    // Do something with 'number'
+}
+‌修饰函数返回值‌：在函数声明或定义时，可以将返回类型声明为const，表明函数返回的值是一个常量，不能被修改。例如：
+
+const int getValue() {
+    return 42;
+}
+‌修饰成员函数‌：在类中定义成员函数时，可以使用const关键字来声明函数不会修改任何类成员变量。这种声明方式称为常量成员函数，它的定义和声明都需要加上const关键字。例如：
+
+class MyClass {
+public:
+    const int getValue() const {
+        return 10; // 返回一个常量值
+    }
+};
+‌使用场景和示例‌：
+
+‌修饰函数参数‌：当函数的目的是读取参数值而不是修改它时，可以使用const修饰参数，例如：
+
+void showValue(const int value) {
+    // 只能读取value的值，不能修改它
+}
+‌修饰成员函数‌：当类的成员函数不会修改任何成员变量时，可以将该函数声明为常量成员函数：
+
+class MyClass {
+public:
+    int getValue() const {
+        return value; // 返回当前值，不修改任何成员变量
+    }
+};
+‌修饰返回值‌：当函数的返回值不应该被修改时，可以将返回值声明为const：
+
+const int getMaxValue() const {
+    return 100; // 返回一个常量值，调用者不能修改这个值
+}
+‌使用const的好处‌：使用const可以提高代码的可读性和安全性，确保函数的参数和返回值不会被意外修改，从而减少潜在的错误‌1。
