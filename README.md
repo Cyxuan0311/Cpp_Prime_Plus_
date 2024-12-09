@@ -5,5 +5,5 @@
 # ## *C++ primer plus*
 
 
-If you want to read more details in C++ Prime Plus,you can read the file =="explain.md"==.
+If you want to read more details in C++ Prime Plus,you can read the file "explain.md".
 
