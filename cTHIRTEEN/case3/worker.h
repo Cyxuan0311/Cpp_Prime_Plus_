@@ -45,3 +45,6 @@ public:
 };
 
 #endif
+//sometime we can use 
+//Worker *pr1=(Waiter *) &ed;
+//Worker *pr2=(Singer *) &ed;
