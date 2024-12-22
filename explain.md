@@ -62,11 +62,11 @@ Now we want to introduce the **string** and **array** in class.For example,<<voi
 The function of pointer is a important tool.if <<double pam(int)>>,we can use <<double (*pf)int>> to build a function pointer.
 
 Now we want to show you about a interesting thing in C++11.**auto** can guess the type of element when we use it.<<auto a = 12 //guess it is int type>>.There are more details in this photo.
-![Picture](cSIX\auto.png)
+![Picture](https://github.com/Cyxuan0311/Cpp_Prime_Plus_/blob/master/cSIX/auto.png?raw=true)
 
 #### ***typedef*** also is a easy tool when we want to clarify the program in C++.
 
-![Picture1](cSIX\photo2.png)
-![Picture2](cSIX\photo1.png)
-![Picture3](cSIX\photo3.png)
+![Picture1](https://github.com/Cyxuan0311/Cpp_Prime_Plus_/blob/master/cSIX/photo2.png?raw=true)
+![Picture2](https://github.com/Cyxuan0311/Cpp_Prime_Plus_/blob/master/cSIX/photo3.png?raw=true)
+![Picture3](https://github.com/Cyxuan0311/Cpp_Prime_Plus_/blob/master/cSIX/photo1.png?raw=true)
 ## *chapter SEVEN*
