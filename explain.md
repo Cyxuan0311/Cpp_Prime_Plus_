@@ -57,11 +57,11 @@ We can use **const** in function.The using of *const* can protect the element in
 
 After that,the struct of C++ also can be used in function.For example,<<travel_time sum(travel_time t1,travel_time t2)>>.We also can build a transform the address of struct's function such as <<void show_polar(const polar *pda)>>.
 
-Now we want to introduce the **string** and **array** in class.For example,<<void display(const string sa[],int n)>> and <<void fill(array<double,Seasons>*pa)>>
+Now we want to introduce the **string** and **array** in class.For example,<<void display(const string sa[],int n)>> and **void arrayfill**(array<double a,int n>)
 
 The function of pointer is a important tool.if <<double pam(int)>>,we can use <<double (*pf)int>> to build a function pointer.
 
-Now we want to show you about a interesting thing in C++11.**auto** can guess the type of element when we use it.<<auto a = 12 //guess it is int type>>.There are more details in this photo.
+Now we want to show you about a interesting thing in C++11.**auto** can guess the type of element when we use it.<<auto a = 12 >>//To guess it is a int type.There are more details in this photo.
 
 
 ![Picture](https://github.com/Cyxuan0311/Cpp_Prime_Plus_/blob/master/cSIX/auto.png?raw=true)
