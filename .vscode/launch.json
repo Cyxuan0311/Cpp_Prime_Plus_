@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "f:/C++__StudyStack/Cplusplus_Studying/cNICE/case4",
-      "program": "f:/C++__StudyStack/Cplusplus_Studying/cNICE/case4/build/Debug/outDebug",
+      "cwd": "f:/C++__StudyStack/Cplusplus_Studying/cFOURTEEN/case3",
+      "program": "f:/C++__StudyStack/Cplusplus_Studying/cFOURTEEN/case3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
