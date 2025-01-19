@@ -1,4 +1,4 @@
-# This is a recording about C plus plus's studying in C++ primer.
+# This is a recording about C plus plus's studying in《C++ primer plus(6th)》.
 
 ## We do not use normal page chapter.For example,chapter one is turly chapter two.And so on.
 
