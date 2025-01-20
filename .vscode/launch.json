@@ -2,23 +2,30 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "C/C++ Runner: Debug Session",
+      "name": "g++.exe - Build and Debug Active File",
       "type": "cppdbg",
       "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",  // 程序路径
       "args": [],
-      "stopAtEntry": false,
-      "externalConsole": true,
-      "cwd": "f:/C++__StudyStack/Cplusplus_Studying/cFOURTEEN/case3",
-      "program": "f:/C++__StudyStack/Cplusplus_Studying/cFOURTEEN/case3/build/Debug/outDebug",
-      "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "stopAtEntry": false,  // 是否在程序入口暂停
+      "cwd": "${fileDirname}",  // 设置当前工作目录为文件所在的目录
+      "environment": [],
+      "externalConsole": false,  // 不使用外部控制台
+      "MIMode": "gdb",  // 使用 GDB 调试器
+      "miDebuggerPath": "D:/mingw64/bin/gdb.exe",  // 这里指定你的 GDB 路径
       "setupCommands": [
         {
-          "description": "Enable pretty-printing for gdb",
+          "description": "Enable pretty-printing for gdb",  // 启用 GDB 的漂亮打印
           "text": "-enable-pretty-printing",
           "ignoreFailures": true
+        },
+        {
+          "description": "Set disassembly flavor to Intel",  // 设置反汇编格式为 Intel
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
         }
-      ]
+      ],
+      "preLaunchTask": "build"  // 确保在调试前执行构建任务
     }
   ]
 }
