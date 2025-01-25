@@ -60,6 +60,8 @@
     "*.sqlbook": "sql",
     "*.ndjson": "jsonl",
     "*.dbclient-js": "javascript",
-    "iostream": "cpp"
-  }
+    "iostream": "cpp",
+    "ostream": "cpp"
+  },
+  "git.ignoreLimitWarning": true
 }
