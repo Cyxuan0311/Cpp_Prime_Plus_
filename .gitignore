@@ -4,6 +4,7 @@
 *.o
 *.obj
 *.x
+*.pch
 
 # Precompiled Headers
 *.gch
@@ -27,3 +28,4 @@
 *.exe
 *.out
 *.app
+*.pdf
